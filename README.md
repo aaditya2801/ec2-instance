@@ -1,15 +1,16 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+ec2-instance
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This role help us to provision 3 ec2-instances: 1 master and 2 worker nodes.
 
 Role Variables
 --------------
+in the vars file you can change your aws access key and secret key and even set your security group, key name and subnet id with yourself.
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
